@@ -6,7 +6,6 @@
           grid-cols-3
           p-20
           space-y-2
-          bg-blue-200
           lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3
         "
       >
@@ -115,16 +114,16 @@
 </template>
 
 <script>
-import chair1 from "@/assets/images/Chair1.png";
-import chair2 from "@/assets/images/Chair2.png";
-import Helmet1 from "@/assets/images/Helmet-1.png";
-import Helmet2 from "@/assets/images/Helmet-2.png";
-import Bookshelf1 from "@/assets/images/Bookshelf1.png";
-import Bookshelf2 from "@/assets/images/Bookshelf2.png";
-import BusShelters1 from "@/assets/images/Bus-shelters1.png";
-import BusShelters2 from "@/assets/images/Bus-shelters2.png";
-import Fusion1 from "@/assets/images/Fusion-1.png";
-import Fusion2 from "@/assets/images/Fusion-2.png";
+import chair1 from "@/assets/images/projet-Images/Chair1.jpg";
+import chair2 from "@/assets/images/projet-Images/Chair2.jpg";
+import Helmet1 from "@/assets/images/projet-Images/Helmet1.jpg";
+import Helmet2 from "@/assets/images/projet-Images/Helmet2.jpg";
+import Bookshelf1 from "@/assets/images/projet-Images/Shelf1.png";
+import Bookshelf2 from "@/assets/images/projet-Images/Shelf2.jpg";
+import BusShelters1 from "@/assets/images/projet-Images/BusShelter1.jpeg";
+import BusShelters2 from "@/assets/images/projet-Images/BusShelter2.png";
+import Fusion1 from "@/assets/images/projet-Images/Fusion1.png";
+import Fusion2 from "@/assets/images/projet-Images/Fusion2.png";
 export default {
   name: "Projects",
 
