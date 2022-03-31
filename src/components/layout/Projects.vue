@@ -11,14 +11,14 @@
       >
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
-            class="image-main h-full w-full"
+            class="image-main h-full w-full bg-gray-300"
             :src="chair1"
             :srcset="chair1"
             alt="Chair-image 1"
             title="Reading Chair"
           />
           <img
-            class="image-hover h-full w-full"
+            class="image-hover h-full w-full bg-gray-300"
             :src="chair2"
             :srcset="chair2"
             alt="Chair-image 2"
@@ -38,14 +38,14 @@
           "
         >
           <img
-            class="image-main h-full w-full"
+            class="image-main h-full w-full bg-gray-300"
             :src="Helmet1"
             :srcset="Helmet1"
             alt="Helmet-image 1"
             title="Helmet"
           />
           <img
-            class="image-hover h-full w-full"
+            class="image-hover h-full w-full bg-gray-300"
             :src="Helmet2"
             :srcset="Helmet2"
             alt="Helmet-image 2"
@@ -55,14 +55,14 @@
 
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
-            class="image-main h-full w-full"
+            class="image-main h-full w-full bg-gray-300"
             :src="Bookshelf1"
             :srcset="Bookshelf1"
             alt="Bookshelf-image 1"
             title="Bookshelf"
           />
           <img
-            class="image-hover h-full w-full"
+            class="image-hover h-full w-full bg-gray-300"
             :src="Bookshelf2"
             :srcset="Bookshelf2"
             alt="Bookshelf-image 2"
@@ -72,14 +72,14 @@
 
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
-            class="image-main h-full w-full"
+            class="image-main h-full w-full bg-gray-300"
             :src="BusShelters1"
             :srcset="BusShelters1"
             alt="Bus-Shelters-image 1"
             title="Bus Shelters"
           />
           <img
-            class="image-hover h-full w-full"
+            class="image-hover h-full w-full bg-gray-300"
             :src="BusShelters2"
             :srcset="BusShelters2"
             alt="Bus-Shelters-image 2"
@@ -89,14 +89,14 @@
 
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
-            class="image-main h-full w-full"
+            class="image-main h-full w-full bg-gray-300"
             :src="Fusion1"
             :srcset="Fusion1"
             alt="Fusion-image 1"
             title="Fusion"
           />
           <img
-            class="image-hover h-full w-full"
+            class="image-hover h-full w-full bg-gray-300"
             :src="Fusion2"
             :srcset="Fusion2"
             alt="Fusion-image 2"
