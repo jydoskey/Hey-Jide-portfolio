@@ -131,9 +131,6 @@ export default {
 </script>
 
 <style>
-/*
-      Rollover Image
-     */
 .figure {
   position: relative;
 }
