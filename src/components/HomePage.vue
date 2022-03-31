@@ -17,20 +17,23 @@
       </p>
     </div>
     <Projects></Projects>
+    <Footer></Footer>
   </section>
 </template>
 
 <script>
 import Header from "@/components/layout/Header.vue";
 import Projects from "@/components/layout/Projects.vue";
+import Footer from "@/components/layout/Footer.vue";
 export default {
-  name: "HeyJidePortfolioHomepage",
+  name: "Homepage",
   data() {
     return {};
   },
   components: {
     Header,
-    Projects
+    Projects,
+    Footer
   },
   mounted() {},
 
