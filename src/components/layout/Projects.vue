@@ -120,10 +120,10 @@ import Helmet1 from "@/assets/images/projet-Images/Helmet1.jpg";
 import Helmet2 from "@/assets/images/projet-Images/Helmet2.jpg";
 import Bookshelf1 from "@/assets/images/projet-Images/Shelf1.png";
 import Bookshelf2 from "@/assets/images/projet-Images/Shelf2.jpg";
-import BusShelters1 from "@/assets/images/projet-Images/BusShelter1.jpeg";
-import BusShelters2 from "@/assets/images/projet-Images/BusShelter2.png";
 import Fusion1 from "@/assets/images/projet-Images/Fusion1.png";
 import Fusion2 from "@/assets/images/projet-Images/Fusion2.png";
+import BusShelters1 from "@/assets/images/projet-Images/BusShelter1.jpeg";
+import BusShelters2 from "@/assets/images/projet-Images/BusShelter2.png";
 export default {
   name: "Projects",
 
