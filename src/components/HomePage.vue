@@ -6,12 +6,11 @@
     >
       <h1
         class="
-          text-2xl
-          dark:text-white
-          text-gray-800
+          text-2xl text-gray-800
           font-bold
           mb-4
           text-center
+          dark:text-white
         "
       >
         Welcome! <span class="wave">👋🏾</span>
