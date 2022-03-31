@@ -2,7 +2,6 @@
   <div class="mt-20">
     <ul
       class="
-        space-y-4
         flex
         space-y-0
         flex-row
