@@ -13,15 +13,15 @@
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
             class="image-main h-full w-full"
-            src="src/assets/Chair1.PNG"
-            srcset="src/assets/Chair1.PNG"
+            :src="chair1"
+            :srcset="chair1"
             alt="Chair-image 1"
             title="Reading Chair"
           />
           <img
             class="image-hover h-full w-full"
-            src="src/assets/Chair2.PNG"
-            srcset="src/assets/Chair2.PNG"
+            :src="chair2"
+            :srcset="chair2"
             alt="Chair-image 2"
             title="Reading Chair"
           />
@@ -40,15 +40,15 @@
         >
           <img
             class="image-main h-full w-full"
-            src="src/assets/Helmet-1.PNG"
-            srcset="src/assets/Helmet-1.PNG"
+            :src="Helmet1"
+            :srcset="Helmet1"
             alt="Helmet-image 1"
             title="Helmet"
           />
           <img
             class="image-hover h-full w-full"
-            src="src/assets/Helmet-2.PNG"
-            srcset="src/assets/Helmet-2.PNG"
+            :src="Helmet2"
+            :srcset="Helmet2"
             alt="Helmet-image 2"
             title="Helmet"
           />
@@ -57,15 +57,15 @@
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
             class="image-main h-full w-full"
-            src="src/assets/Bookshelf1.PNG"
-            srcset="src/assets/Bookshelf1.PNG"
+            :src="Bookshelf1"
+            :srcset="Bookshelf1"
             alt="Bookshelf-image 1"
             title="Bookshelf"
           />
           <img
             class="image-hover h-full w-full"
-            src="src/assets/Bookshelf2.PNG"
-            srcset="src/assets/Bookshelf2.PNG"
+            :src="Bookshelf2"
+            :srcset="Bookshelf2"
             alt="Bookshelf-image 2"
             title="Bookshelf"
           />
@@ -74,15 +74,15 @@
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
             class="image-main h-full w-full"
-            src="src/assets/Bus-shelters1.PNG"
-            srcset="src/assets/Bus-shelters1.PNG"
+            :src="BusShelters1"
+            :srcset="BusShelters1"
             alt="Bus-Shelters-image 1"
             title="Bus Shelters"
           />
           <img
             class="image-hover h-full w-full"
-            src="src/assets/Bus-shelters2.PNG"
-            srcset="src/assets/Bus-shelters2.PNG"
+            :src="BusShelters2"
+            :srcset="BusShelters2"
             alt="Bus-Shelters-image 2"
             title="Bus Shelters"
           />
@@ -91,15 +91,15 @@
         <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
           <img
             class="image-main h-full w-full"
-            src="src/assets/Fusion-1.PNG"
-            srcset="src/assets/Fusion-1.PNG"
+            :src="Fusion1"
+            :srcset="Fusion1"
             alt="Fusion-image 1"
             title="Fusion"
           />
           <img
             class="image-hover h-full w-full"
-            src="src/assets/Fusion-2.PNG"
-            srcset="src/assets/Fusion-2.PNG"
+            :src="Fusion2"
+            :srcset="Fusion2"
             alt="Fusion-image 2"
             title="Fusion"
           />
@@ -115,19 +115,33 @@
 </template>
 
 <script>
+import chair1 from "@/assets/Chair1.png";
+import chair2 from "@/assets/Chair2.png";
+import Helmet1 from "@/assets/Helmet-1.png";
+import Helmet2 from "@/assets/Helmet-2.png";
+import Bookshelf1 from "@/assets/Bookshelf1.png";
+import Bookshelf2 from "@/assets/Bookshelf2.png";
+import BusShelters1 from "@/assets/Bus-shelters1.png";
+import BusShelters2 from "@/assets/Bus-shelters2.png";
+import Fusion1 from "@/assets/Fusion-1.png";
+import Fusion2 from "@/assets/Fusion-2.png";
 export default {
   name: "Projects",
 
   data() {
     return {
+      chair1: chair1,
+      chair2: chair2,
+      Helmet1: Helmet1,
+      Helmet2: Helmet2,
+      Bookshelf1: Bookshelf1,
+      Bookshelf2: Bookshelf2,
+      BusShelters1: BusShelters1,
+      BusShelters2: BusShelters2,
+      Fusion1: Fusion1,
+      Fusion2: Fusion2,
     };
   },
-
-  computed: {},
-
-  mounted() {},
-
-  methods: {},
 };
 </script>
 
