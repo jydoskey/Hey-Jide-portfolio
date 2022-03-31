@@ -115,16 +115,16 @@
 </template>
 
 <script>
-import chair1 from "../../assets/Chair1.png";
-import chair2 from "../../assets/Chair2.png";
-import Helmet1 from "../../assets/Helmet-1.png";
-import Helmet2 from "../../assets/Helmet-2.png";
-import Bookshelf1 from "../../assets/Bookshelf1.png";
-import Bookshelf2 from "../../assets/Bookshelf2.png";
-import BusShelters1 from "../../assets/Bus-shelters1.png";
-import BusShelters2 from "../../assets/Bus-shelters2.png";
-import Fusion1 from "../../assets/Fusion-1.png";
-import Fusion2 from "../../assets/Fusion-2.png";
+import chair1 from "@/assets/images/Chair1.png";
+import chair2 from "@/assets/images/Chair2.png";
+import Helmet1 from "@/assets/images/Helmet-1.png";
+import Helmet2 from "@/assets/images/Helmet-2.png";
+import Bookshelf1 from "@/assets/images/Bookshelf1.png";
+import Bookshelf2 from "@/assets/images/Bookshelf2.png";
+import BusShelters1 from "@/assets/images/Bus-shelters1.png";
+import BusShelters2 from "@/assets/images/Bus-shelters2.png";
+import Fusion1 from "@/assets/images/Fusion-1.png";
+import Fusion2 from "@/assets/images/Fusion-2.png";
 export default {
   name: "Projects",
 
