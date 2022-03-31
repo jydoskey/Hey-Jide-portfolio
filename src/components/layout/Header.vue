@@ -19,6 +19,7 @@
               text-gray-800
               md:text-2xl
               hover:text-blue-400
+              dark:text-white
             "
             >Ademodi Olajumoke</router-link
           >
@@ -65,6 +66,7 @@
               text-gray-800
               hover:text-blue-400
               cursor-pointer
+              dark:text-white
             "
           >
             About
@@ -76,6 +78,7 @@
               text-gray-800
               hover:text-blue-400
               cursor-pointer
+              dark:text-white
             "
           >
             Instagram
@@ -87,6 +90,7 @@
               text-gray-800
               hover:text-blue-400
               cursor-pointer
+              dark:text-white
             "
           >
             Behance

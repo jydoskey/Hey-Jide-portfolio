@@ -17,6 +17,7 @@
           text-gray-400
           hover:text-blue-400
           cursor-pointer
+          dark:text-white
         "
       >
         About
@@ -28,6 +29,7 @@
           text-gray-400
           hover:text-blue-400
           cursor-pointer
+          dark:text-white
         "
       >
         Instagram
@@ -39,6 +41,7 @@
           text-gray-400
           hover:text-blue-400
           cursor-pointer
+          dark:text-white
         "
       >
         Behance
@@ -53,6 +56,7 @@
         md:items-center
         block
         text-center
+        dark:text-white
       "
     >
       Copyright ©2022. All rights reserved
