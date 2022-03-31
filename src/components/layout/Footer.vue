@@ -1,14 +1,7 @@
 <template>
   <div class="mt-20">
     <ul
-      class="
-        flex
-        space-y-0
-        flex-row
-        md:items-center
-        space-x-10
-        justify-center
-      "
+      class="flex space-y-0 flex-row md:items-center space-x-10 justify-center"
     >
       <li
         class="
@@ -69,11 +62,9 @@ export default {
   name: "Footer",
 
   data() {
-    return {
-    };
+    return {};
   },
-  methods: {
-    },
+  methods: {},
 };
 </script>
 
