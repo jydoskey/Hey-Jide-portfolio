@@ -16,11 +16,13 @@
         this is through empathy in design and innovation
       </p>
     </div>
+    <Projects></Projects>
   </section>
 </template>
 
 <script>
 import Header from "@/components/layout/Header.vue";
+import Projects from "@/components/layout/Projects.vue";
 export default {
   name: "HeyJidePortfolioHomepage",
   data() {
@@ -28,6 +30,7 @@ export default {
   },
   components: {
     Header,
+    Projects
   },
   mounted() {},
 
