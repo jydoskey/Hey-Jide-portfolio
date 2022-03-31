@@ -4,10 +4,10 @@
     <div
       class="container px-6 py-8 mx-auto md:items-center block justify-center"
     >
-      <h1 class="text-2xl text-gray-800 font-bold mb-4 text-center">
+      <h1 class="text-2xl dark:text-white text-gray-800 font-bold mb-4 text-center">
         Welcome! <span class="wave">👋🏾</span>
       </h1>
-      <p class="text-md text-gray-800">
+      <p class="text-md text-gray-800 dark:text-white">
         I am a curious and creative person who is passionate about solving
         problems in my community. I am eager to take on new challenges and learn
         new concepts and techniques in creating good, sustainable products. I
