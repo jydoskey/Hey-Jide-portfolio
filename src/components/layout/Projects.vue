@@ -9,7 +9,7 @@
           lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3
         "
       >
-        <div
+        <router-link
           class="
             w-full
             rounded
@@ -18,6 +18,7 @@
             figure
             overflow-hidden
           "
+          to="/busshelter"
         >
           <img
             class="image-main h-full w-full bg-gray-300"
@@ -47,7 +48,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </router-link>
 
         <div
           class="
