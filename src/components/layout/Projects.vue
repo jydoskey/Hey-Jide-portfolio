@@ -4,7 +4,7 @@
       <div
         class="
           grid-cols-3
-          p-37
+          p-42
           space-y-2
           lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3
         "
@@ -33,11 +33,18 @@
             alt="BusShelters"
             title="BusShelters"
           />
-          <div class="header h-full w-full pt-8">
+          <div class="header h-full w-full p-8">
             <div class="hero-header">
-              <h1>Hero title</h1>
-              <h2>Another landing page</h2>
-              <button>Sign-up</button>
+              <h1 class="text-3xl font-bold uppercase pb-1">
+                Concept design for Bus Shelters
+              </h1>
+              <h2 class="text-xs font-thin pb-4">Solid works, Sketch</h2>
+              <p class="text-sm font-light">
+                The design allows people to protect themselves during the
+                raining season (the doors can be opened for ventilation into the
+                bus shelter and for people who are claustrophobic). It also
+                protects commuters from the harsh effects of the sun.
+              </p>
             </div>
           </div>
         </div>
@@ -68,11 +75,16 @@
             alt="Helmet-image 2"
             title="Helmet"
           />
-          <div class="header h-full w-full pt-8">
+          <div class="header h-full w-full p-8">
             <div class="hero-header">
-              <h1>Hero title</h1>
-              <h2>Another landing page</h2>
-              <button>Sign-up</button>
+              <h1 class="text-3xl font-bold uppercase pb-1">
+                Concept design for a Helmet
+              </h1>
+              <h2 class="text-xs font-thin pb-4">Coloured Painting, Sketch</h2>
+              <p class="text-sm font-light">
+                Designing stylish helmets that will encourage motor cycles to
+                wear their helmets and stay protected.
+              </p>
             </div>
           </div>
         </div>
@@ -101,11 +113,22 @@
             alt="Fusion 2"
             title="Fusion"
           />
-          <div class="header h-full w-full pt-8">
+          <div class="header h-full w-full p-8">
             <div class="hero-header">
-              <h1>Hero title</h1>
-              <h2>Another landing page</h2>
-              <button>Sign-up</button>
+              <h1 class="text-3xl font-bold uppercase pb-1">
+                Fusion (Software App)
+              </h1>
+              <h2 class="text-xs font-thin pb-4">
+                User research, Customer journey mapping, Flow charts, Wire
+                framing
+              </h2>
+              <p class="text-sm font-light">
+                Fusion is a social and business application that promotes
+                innovation, community and lifestyle. It is the digital
+                expression of Café One; where community meets innovation. It is
+                a platform for users to connect with people of like minds or
+                with similar interests.
+              </p>
             </div>
           </div>
         </div>
@@ -134,11 +157,18 @@
             alt="Bookshelf 2"
             title="Bookshelf"
           />
-          <div class="header h-full w-full pt-8">
+          <div class="header h-full w-full p-8">
             <div class="hero-header">
-              <h1>Hero title</h1>
-              <h2>Another landing page</h2>
-              <button>Sign-up</button>
+              <h1 class="text-3xl font-bold uppercase pb-1">
+                concept design for bookshelf
+              </h1>
+              <h2 class="text-xs font-thin pb-4">
+                Sketch, Painting, Solidworks, Keyshot
+              </h2>
+              <p class="text-sm font-light">
+                The preferred material for the bookshelf series is wood in
+                different variations; ash wood, mahogany wood, maple wood.
+              </p>
             </div>
           </div>
         </div>
@@ -167,19 +197,54 @@
             alt="chair 2"
             title="chair"
           />
-          <div class="header h-full w-full pt-8">
+          <div class="header h-full w-full p-8">
             <div class="hero-header">
-              <h1>Hero title</h1>
-              <h2>Another landing page</h2>
-              <button>Sign-up</button>
+              <h1 class="text-3xl font-bold uppercase pb-1">
+                concept design for chairs
+              </h1>
+              <h2 class="text-xs font-thin pb-4">Sketch, Painting</h2>
+              <p class="text-sm font-light">
+                The chair frame is made of walnut wood and the seats are made of
+                cotton with a black wool-like finishing
+              </p>
             </div>
           </div>
         </div>
 
-        <!-- <div class="w-full rounded hover:shadow-2xl cursor-pointer">
-            <img class="h-full w-full" src=""
-                alt="image">
-        </div> -->
+        <div
+          class="
+            w-full
+            rounded
+            hover:shadow-2xl
+            cursor-pointer
+            figure
+            overflow-hidden
+          "
+        >
+          <img
+            class="image-main h-full w-full bg-gray-300"
+            :src="Eyes"
+            :srcset="Eyes"
+            alt="chair 1"
+            title="chair"
+          />
+          <img
+            class="image-hover h-full w-full bg-gray-300"
+            :src="Eyes"
+            :srcset="Eyes"
+            alt="chair 2"
+            title="chair"
+          />
+          <div class="header h-full w-full p-8">
+            <div class="hero-header">
+              <h1 class="text-3xl font-bold uppercase pb-1">
+                Chalk on black paper painting
+              </h1>
+              <h2 class="text-xs font-thin pb-4">Painting</h2>
+              <p class="text-sm font-light"></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -196,6 +261,7 @@ import Fusion1 from "@/assets/images/projet-Images/Fusion1.png";
 import Fusion2 from "@/assets/images/projet-Images/Fusion22.png";
 import BusShelters1 from "@/assets/images/projet-Images/BusShelter1.jpeg";
 import BusShelters2 from "@/assets/images/projet-Images/BusShelter2.png";
+import Eyes from "@/assets/images/projet-Images/eyes.png";
 export default {
   name: "Projects",
 
@@ -211,6 +277,7 @@ export default {
       BusShelters2: BusShelters2,
       Fusion1: Fusion1,
       Fusion2: Fusion2,
+      Eyes: Eyes,
     };
   },
 };
@@ -241,7 +308,7 @@ export default {
   left: 0;
   bottom: 0;
   object-fit: cover;
-  text-align: center;
+  text-align: start;
   color: white;
   background: rgb(0, 0, 0, 0.75);
   opacity: 0;
