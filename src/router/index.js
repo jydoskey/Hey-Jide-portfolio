@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'BusShelter',
       component: () => import('@/components/BusShelter.vue')
     },
+    {
+      path: '/helmet',
+      name: 'Helmet',
+      component: () => import('@/components/Helmet.vue')
+    }
   ]
 })
 
