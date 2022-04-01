@@ -12,7 +12,12 @@ const router = createRouter({
       path: '/about',
       name: 'About',
       component: () => import('@/components/About.vue')
-    }
+    },
+    {
+      path: '/busshelter',
+      name: 'BusShelter',
+      component: () => import('@/components/BusShelter.vue')
+    },
   ]
 })
 
