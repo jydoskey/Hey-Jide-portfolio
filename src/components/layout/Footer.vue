@@ -44,7 +44,7 @@
     </ul>
     <p
       class="
-        text-md text-gray-400
+        text-base text-gray-400
         px-6
         py-8
         mx-auto
