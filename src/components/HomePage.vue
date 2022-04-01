@@ -15,7 +15,7 @@
       >
         Welcome! <span class="wave">👋🏾</span>
       </h1>
-      <p class="text-md text-gray-800 dark:text-white">
+      <p class="text-base text-gray-800 dark:text-white">
         I am a curious and creative person who is passionate about solving
         problems in my community. I am eager to take on new challenges and learn
         new concepts and techniques in creating good, sustainable products. I

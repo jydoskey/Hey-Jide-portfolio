@@ -59,17 +59,19 @@
             md:mt-0
           "
         >
-          <li
-            class="
-              text-sm
-              font-bold
-              text-gray-800
-              hover:text-blue-400
-              cursor-pointer
-              dark:text-white
-            "
-          >
-            About
+          <li>
+            <router-link
+              class="
+                text-sm
+                font-bold
+                text-gray-800
+                hover:text-blue-400
+                cursor-pointer
+                dark:text-white
+              "
+              to="/about"
+              >About</router-link
+            >
           </li>
           <li
             class="
