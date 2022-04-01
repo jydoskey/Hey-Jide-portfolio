@@ -4,26 +4,42 @@
       <div
         class="
           grid-cols-3
-          p-20
+          p-37
           space-y-2
           lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3
         "
       >
-        <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
+        <div
+          class="
+            w-full
+            rounded
+            hover:shadow-2xl
+            cursor-pointer
+            figure
+            overflow-hidden
+          "
+        >
           <img
             class="image-main h-full w-full bg-gray-300"
-            :src="chair1"
-            :srcset="chair1"
-            alt="Chair-image 1"
-            title="Reading Chair"
+            :src="BusShelters1"
+            :srcset="BusShelters1"
+            alt="BusShelters 1"
+            title="BusShelters"
           />
           <img
             class="image-hover h-full w-full bg-gray-300"
-            :src="chair2"
-            :srcset="chair2"
-            alt="Chair-image 2"
-            title="Reading Chair"
+            :src="BusShelters2"
+            :srcset="BusShelters2"
+            alt="BusShelters"
+            title="BusShelters"
           />
+          <div class="header h-full w-full pt-8">
+            <div class="hero-header">
+              <h1>Hero title</h1>
+              <h2>Another landing page</h2>
+              <button>Sign-up</button>
+            </div>
+          </div>
         </div>
 
         <div
@@ -35,6 +51,7 @@
             hover:shadow-2xl
             cursor-pointer
             figure
+            overflow-hidden
           "
         >
           <img
@@ -51,57 +68,112 @@
             alt="Helmet-image 2"
             title="Helmet"
           />
+          <div class="header h-full w-full pt-8">
+            <div class="hero-header">
+              <h1>Hero title</h1>
+              <h2>Another landing page</h2>
+              <button>Sign-up</button>
+            </div>
+          </div>
         </div>
 
-        <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
-          <img
-            class="image-main h-full w-full bg-gray-300"
-            :src="Bookshelf1"
-            :srcset="Bookshelf1"
-            alt="Bookshelf-image 1"
-            title="Bookshelf"
-          />
-          <img
-            class="image-hover h-full w-full bg-gray-300"
-            :src="Bookshelf2"
-            :srcset="Bookshelf2"
-            alt="Bookshelf-image 2"
-            title="Bookshelf"
-          />
-        </div>
-
-        <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
-          <img
-            class="image-main h-full w-full bg-gray-300"
-            :src="BusShelters1"
-            :srcset="BusShelters1"
-            alt="Bus-Shelters-image 1"
-            title="Bus Shelters"
-          />
-          <img
-            class="image-hover h-full w-full bg-gray-300"
-            :src="BusShelters2"
-            :srcset="BusShelters2"
-            alt="Bus-Shelters-image 2"
-            title="Bus Shelters"
-          />
-        </div>
-
-        <div class="w-full rounded hover:shadow-2xl cursor-pointer figure">
+        <div
+          class="
+            w-full
+            rounded
+            hover:shadow-2xl
+            cursor-pointer
+            figure
+            overflow-hidden
+          "
+        >
           <img
             class="image-main h-full w-full bg-gray-300"
             :src="Fusion1"
             :srcset="Fusion1"
-            alt="Fusion-image 1"
+            alt="Fusion 1"
             title="Fusion"
           />
           <img
             class="image-hover h-full w-full bg-gray-300"
             :src="Fusion2"
             :srcset="Fusion2"
-            alt="Fusion-image 2"
+            alt="Fusion 2"
             title="Fusion"
           />
+          <div class="header h-full w-full pt-8">
+            <div class="hero-header">
+              <h1>Hero title</h1>
+              <h2>Another landing page</h2>
+              <button>Sign-up</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="
+            w-full
+            rounded
+            hover:shadow-2xl
+            cursor-pointer
+            figure
+            overflow-hidden
+          "
+        >
+          <img
+            class="image-main h-full w-full bg-gray-300"
+            :src="Bookshelf1"
+            :srcset="Bookshelf1"
+            alt="Bookshelf 1"
+            title="Bookshelf"
+          />
+          <img
+            class="image-hover h-full w-full bg-gray-300"
+            :src="Bookshelf2"
+            :srcset="Bookshelf2"
+            alt="Bookshelf 2"
+            title="Bookshelf"
+          />
+          <div class="header h-full w-full pt-8">
+            <div class="hero-header">
+              <h1>Hero title</h1>
+              <h2>Another landing page</h2>
+              <button>Sign-up</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="
+            w-full
+            rounded
+            hover:shadow-2xl
+            cursor-pointer
+            figure
+            overflow-hidden
+          "
+        >
+          <img
+            class="image-main h-full w-full bg-gray-300"
+            :src="chair1"
+            :srcset="chair1"
+            alt="chair 1"
+            title="chair"
+          />
+          <img
+            class="image-hover h-full w-full bg-gray-300"
+            :src="chair2"
+            :srcset="chair2"
+            alt="chair 2"
+            title="chair"
+          />
+          <div class="header h-full w-full pt-8">
+            <div class="hero-header">
+              <h1>Hero title</h1>
+              <h2>Another landing page</h2>
+              <button>Sign-up</button>
+            </div>
+          </div>
         </div>
 
         <!-- <div class="w-full rounded hover:shadow-2xl cursor-pointer">
@@ -144,7 +216,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .figure {
   position: relative;
 }
@@ -159,6 +231,23 @@ export default {
   transition: opacity 0.2s;
 }
 .figure:hover img.image-hover {
+  opacity: 1;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+  text-align: center;
+  color: white;
+  background: rgb(0, 0, 0, 0.75);
+  opacity: 0;
+}
+
+.header:hover {
   opacity: 1;
 }
 </style>
