@@ -22,6 +22,11 @@ const router = createRouter({
       path: '/helmet',
       name: 'Helmet',
       component: () => import('@/components/Helmet.vue')
+    },
+    {
+      path: '/fusion',
+      name: 'Fusion',
+      component: () => import('@/components/Fusion.vue')
     }
   ]
 })
