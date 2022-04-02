@@ -139,7 +139,9 @@
           </div>
         </router-link>
 
-        <div
+
+        <!-- Shelf -->
+        <router-link
           class="
             w-full
             rounded
@@ -148,6 +150,7 @@
             figure
             overflow-hidden
           "
+          to="/shelf"
         >
           <img
             class="image-main h-full w-full bg-gray-300"
@@ -177,7 +180,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </router-link>
 
         <div
           class="
