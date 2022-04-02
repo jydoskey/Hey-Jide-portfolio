@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/fusion',
       name: 'Fusion',
       component: () => import('@/components/Fusion.vue')
+    },
+    {
+      path: '/shelf',
+      name: 'Shelf',
+      component: () => import('@/components/Shelf.vue')
     }
   ]
 })
