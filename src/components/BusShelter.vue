@@ -68,6 +68,76 @@
       </div>
     </div>
 
+    <div class="container mx-auto">
+      <div
+        class="
+          grid-cols-2
+          pt-0
+          pb-10
+          px-6
+          lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
+        "
+      >
+        <div>
+          <h1
+            class="
+              text-base
+              font-bold
+              capitalize
+              text-slate-400
+              dark:text-white
+            "
+          >
+            People standing on the streets of Lagos without a bus shelter
+          </h1>
+          <img
+            class="
+              bg-gray-200
+              object-fit
+              w-full
+              h-full
+              lg:justify-self-end
+              md:mx-auto
+              mt-5
+              lg:my-0
+            "
+            alt="Without Bus Shelter"
+            title="Without Bus Shelter"
+            src="@/assets/images/projet-Images/BusShelter5.jpg"
+          />
+        </div>
+
+        <div>
+          <h1
+            class="
+              text-base
+              font-bold
+              capitalize
+              text-slate-400
+              dark:text-white
+            "
+          >
+            Bus shelters do not protect people from Rain and Wind
+          </h1>
+          <img
+            class="
+              bg-gray-200
+              object-fit
+              w-full
+              h-full
+              lg:justify-self-end
+              md:mx-auto
+              mt-5
+              lg:my-0
+            "
+            alt="Shelter without covering"
+            title="Shelter without covering"
+            src="@/assets/images/projet-Images/BusShelter6.jpg"
+          />
+        </div>
+      </div>
+    </div>
+
     <div class="container mt-5 mx-auto">
       <div class="container mx-auto">
         <div class="grid-cols-1 py-10 px-10 lg:space-y-0 lg:grid lg:mx-auto">
@@ -132,7 +202,6 @@
         </div>
       </div>
     </div>
-
 
     <Footer></Footer>
   </div>
