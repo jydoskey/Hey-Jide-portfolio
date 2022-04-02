@@ -119,7 +119,7 @@
             "
             alt="Design and material highlighting"
             title="Design and material highlighting"
-            src="@/assets/images/projet-Images/shelf3.jpg"
+            src="@/assets/images/projet-Images/Shelf3.jpg"
           />
 
           <h1
@@ -149,7 +149,7 @@
             "
             alt="Solidworks rendering"
             title="Solidworks rendering"
-            src="@/assets/images/projet-Images/shelf4.png"
+            src="@/assets/images/projet-Images/Shelf4.png"
           />
         </div>
       </div>
@@ -190,7 +190,7 @@
             "
             alt="Bookshelf A fixed to the wall with some books"
             title="Bookshelf A fixed to the wall with some books"
-            src="@/assets/images/projet-Images/shelf5.png"
+            src="@/assets/images/projet-Images/Shelf5.png"
           />
         </div>
 
@@ -219,7 +219,7 @@
             "
             alt="Bookshelf B"
             title="Bookshelf B"
-            src="@/assets/images/projet-Images/shelf1.png"
+            src="@/assets/images/projet-Images/Shelf1.png"
           />
         </div>
       </div>
