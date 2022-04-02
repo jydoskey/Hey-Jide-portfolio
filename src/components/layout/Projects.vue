@@ -50,7 +50,7 @@
           </div>
         </router-link>
 
-        <div
+        <router-link
           class="
             w-full
             col-span-2
@@ -61,6 +61,7 @@
             figure
             overflow-hidden
           "
+          to="/helmet"
         >
           <img
             class="image-main h-full w-full bg-gray-300"
@@ -88,7 +89,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </router-link>
 
         <div
           class="
