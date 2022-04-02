@@ -16,10 +16,10 @@
               dark:text-white
             "
           >
-            Concept Design for Bus Shelters
+            Fusion (Software Application)
           </h1>
           <h2 class="text-base font-thin pb-4 block text-slate-400">
-            Solid works, Sketch
+            User research, Customer journey mapping, Flow charts, Wire framing
           </h2>
         </div>
         <div
@@ -32,10 +32,9 @@
           "
         >
           <p class="text-thin mt-2 px-1 text-gray-800 mb-4 dark:text-white">
-            The design allows people to protect themselves during the raining
-            season (the doors can be opened for ventilation into the bus shelter
-            and for people who are claustrophobic). It also protects commuters
-            from the harsh effects of the sun.
+            Café One is a hybrid banking model created by Sterling Bank which
+            offers a co-working space, tailored events and also functions as a
+            Café.
           </p>
 
           <div>
@@ -43,9 +42,10 @@
               problem statement
             </h1>
             <p class="block text-thin pt-2 text-gray-800 mb-4 dark:text-white">
-              Inadequate number of bus shelters in the city of Lagos, Nigeria.
-              The available bus shelters are usually packed and do not provide
-              adequate protection from both sun and rain for commuters.
+              Café One has created a community filled with people with diverse
+              interests. At the beginning of the COVID-19 pandemic, people were
+              isolated and could not interact with their community members; Café
+              One needed a way to make the interaction available virtually.
             </p>
             <h1
               class="text-base capitalize text-slate-400 mb-1 dark:text-white"
@@ -53,7 +53,11 @@
               solution
             </h1>
             <p class="text-thin text-gray-800 mb-4 dark:text-white">
-              Designing bus shelters for commuters in Lagos, Nigeria
+              Fusion is a social and business application that promotes
+              innovation, community and lifestyle. It is the digital expression
+              of Café One; where community meets innovation. It is a platform
+              for users to connect with people of like minds or with similar
+              interests, register for events and build communities
             </p>
             <h1
               class="text-base text-slate-400 mb-1 dark:text-white capitalize"
@@ -61,79 +65,9 @@
               tools
             </h1>
             <p class="text-thin text-gray-800 mb-4 dark:text-white">
-              Solid works, Sketch
+              User research, Customer journey mapping, Flow charts, Wire framing
             </p>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mx-auto">
-      <div
-        class="
-          grid-cols-2
-          pt-0
-          pb-10
-          px-6
-          lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
-        "
-      >
-        <div>
-          <h1
-            class="
-              text-base
-              font-bold
-              capitalize
-              text-slate-400
-              dark:text-white
-            "
-          >
-            People standing on the streets of Lagos without a bus shelter
-          </h1>
-          <img
-            class="
-              bg-gray-200
-              object-fit
-              w-full
-              h-full
-              lg:justify-self-end
-              md:mx-auto
-              mt-5
-              lg:my-0
-            "
-            alt="Without Bus Shelter"
-            title="Without Bus Shelter"
-            src="@/assets/images/projet-Images/BusShelter5.jpg"
-          />
-        </div>
-
-        <div>
-          <h1
-            class="
-              text-base
-              font-bold
-              capitalize
-              text-slate-400
-              dark:text-white
-            "
-          >
-            Bus shelters do not protect people from Rain and Wind
-          </h1>
-          <img
-            class="
-              bg-gray-200
-              object-fit
-              w-full
-              h-full
-              lg:justify-self-end
-              md:mx-auto
-              mt-5
-              lg:my-0
-            "
-            alt="Shelter without covering"
-            title="Shelter without covering"
-            src="@/assets/images/projet-Images/BusShelter6.jpg"
-          />
         </div>
       </div>
     </div>
@@ -152,7 +86,7 @@
               dark:text-white
             "
           >
-            Sketch
+            Project Roadmap
           </h1>
           <img
             class="
@@ -165,9 +99,9 @@
               mt-5
               lg:my-0
             "
-            alt="Bus Shelter Sketch"
-            title="Bus Shelter Sketch"
-            src="@/assets/images/projet-Images/BusShelter3.png"
+            alt="Fusion Roadmap"
+            title="Fusion Roadmap"
+            src="@/assets/images/projet-Images/Fusion3.png"
           />
 
           <h1
@@ -182,7 +116,7 @@
               dark:text-white
             "
           >
-            Solidworks Rendering
+            List of communities based on interest; Joining preferred community
           </h1>
           <img
             class="
@@ -195,9 +129,39 @@
               my-5
               lg:my-0
             "
-            alt="Bus Shelter Solidworks"
-            title="Bus Shelter Solidworks"
-            src="@/assets/images/projet-Images/BusShelter4.png"
+            alt="Preferred Community"
+            title="Preferred Community"
+            src="@/assets/images/projet-Images/Fusion22.png"
+          />
+
+          <h1
+            class="
+              text-3xl
+              font-bold
+              capitalize
+              pb-1
+              pt-10
+              block
+              text-black
+              dark:text-white
+            "
+          >
+            Blog posts in the community; Able to register and pay for an event
+          </h1>
+          <img
+            class="
+              bg-gray-200
+              object-fit
+              w-full
+              h-full
+              lg:justify-self-end
+              md:mx-auto
+              my-5
+              lg:my-0
+            "
+            alt="Register and Pay"
+            title="Register and Pay"
+            src="@/assets/images/projet-Images/Fusion4.png"
           />
         </div>
       </div>
@@ -211,7 +175,7 @@
 import Header from "@/components/layout/Header.vue";
 import Footer from "@/components/layout/Footer.vue";
 export default {
-  name: "BusShelter",
+  name: "Fusion",
 
   data() {
     return {};
