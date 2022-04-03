@@ -74,7 +74,7 @@
 
     <div class="container mt-5 mx-auto">
       <div class="container mx-auto">
-        <div class="grid-cols-1 py-10 px-10 lg:space-y-0 lg:grid lg:mx-auto">
+        <div class="grid-cols-1 py-10 px-6 lg:space-y-0 lg:grid lg:mx-auto">
           <h1
             class="
               text-3xl
