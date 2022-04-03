@@ -16,22 +16,27 @@ const router = createRouter({
     {
       path: '/busshelter',
       name: 'BusShelter',
-      component: () => import('@/components/BusShelter.vue')
+      component: () => import('@/components/description/BusShelter.vue')
     },
     {
       path: '/helmet',
       name: 'Helmet',
-      component: () => import('@/components/Helmet.vue')
+      component: () => import('@/components/description/Helmet.vue')
     },
     {
       path: '/fusion',
       name: 'Fusion',
-      component: () => import('@/components/Fusion.vue')
+      component: () => import('@/components/description/Fusion.vue')
     },
     {
       path: '/shelf',
       name: 'Shelf',
-      component: () => import('@/components/Shelf.vue')
+      component: () => import('@/components/description/Shelf.vue')
+    },
+    {
+      path: '/chair',
+      name: 'Chair',
+      component: () => import('@/components/description/Chair.vue')
     }
   ]
 })
