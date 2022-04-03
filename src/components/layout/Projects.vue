@@ -221,7 +221,8 @@
           </div>
         </router-link>
 
-        <div
+        <!-- Painting -->
+        <router-link
           class="
             w-full
             rounded
@@ -230,20 +231,21 @@
             figure
             overflow-hidden
           "
+          to="/painting"
         >
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Eyes"
             :srcset="Eyes"
-            alt="chair 1"
-            title="chair"
+            alt="Eyes"
+            title="Eyes"
           />
           <img
             class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="Eyes"
             :srcset="Eyes"
-            alt="chair 2"
-            title="chair"
+            alt="Eyes"
+            title="Eyes"
           />
           <div class="header h-full w-full p-8">
             <div class="hero-header">
@@ -254,7 +256,7 @@
               <p class="text-sm font-light"></p>
             </div>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
   </div>
