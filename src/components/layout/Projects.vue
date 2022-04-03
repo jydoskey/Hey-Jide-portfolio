@@ -22,14 +22,14 @@
           to="/busshelter"
         >
           <img
-            class="image-main h-full w-full bg-gray-300"
+            class="image-main h-full w-full bg-gray-300 mb-4"
             :src="BusShelters1"
             :srcset="BusShelters1"
             alt="BusShelters 1"
             title="BusShelters"
           />
           <img
-            class="image-hover h-full w-full bg-gray-300"
+            class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="BusShelters2"
             :srcset="BusShelters2"
             alt="BusShelters"
@@ -66,14 +66,14 @@
           to="/helmet"
         >
           <img
-            class="image-main h-full w-full bg-gray-300"
+            class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Helmet1"
             :srcset="Helmet1"
             alt="Helmet-image 1"
             title="Helmet"
           />
           <img
-            class="image-hover h-full w-full bg-gray-300"
+            class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="Helmet2"
             :srcset="Helmet2"
             alt="Helmet-image 2"
@@ -106,14 +106,14 @@
           to="/fusion"
         >
           <img
-            class="image-main h-full w-full bg-gray-300"
+            class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Fusion1"
             :srcset="Fusion1"
             alt="Fusion 1"
             title="Fusion"
           />
           <img
-            class="image-hover h-full w-full bg-gray-300"
+            class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="Fusion2"
             :srcset="Fusion2"
             alt="Fusion 2"
@@ -139,7 +139,6 @@
           </div>
         </router-link>
 
-
         <!-- Shelf -->
         <router-link
           class="
@@ -153,14 +152,14 @@
           to="/shelf"
         >
           <img
-            class="image-main h-full w-full bg-gray-300"
+            class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Bookshelf1"
             :srcset="Bookshelf1"
             alt="Bookshelf 1"
             title="Bookshelf"
           />
           <img
-            class="image-hover h-full w-full bg-gray-300"
+            class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="Bookshelf2"
             :srcset="Bookshelf2"
             alt="Bookshelf 2"
@@ -182,7 +181,8 @@
           </div>
         </router-link>
 
-        <div
+        <!-- Chair -->
+        <router-link
           class="
             w-full
             rounded
@@ -191,16 +191,17 @@
             figure
             overflow-hidden
           "
+          to="/chair"
         >
           <img
-            class="image-main h-full w-full bg-gray-300"
+            class="image-main h-full w-full bg-gray-300 mb-4"
             :src="chair1"
             :srcset="chair1"
             alt="chair 1"
             title="chair"
           />
           <img
-            class="image-hover h-full w-full bg-gray-300"
+            class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="chair2"
             :srcset="chair2"
             alt="chair 2"
@@ -218,7 +219,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </router-link>
 
         <div
           class="
@@ -231,14 +232,14 @@
           "
         >
           <img
-            class="image-main h-full w-full bg-gray-300"
+            class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Eyes"
             :srcset="Eyes"
             alt="chair 1"
             title="chair"
           />
           <img
-            class="image-hover h-full w-full bg-gray-300"
+            class="image-hover h-full w-full bg-gray-300 mb-4"
             :src="Eyes"
             :srcset="Eyes"
             alt="chair 2"
