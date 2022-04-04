@@ -31,7 +31,7 @@
             lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
           "
         >
-          <p class="text-thin mt-2 px-1 text-gray-800 mb-4 dark:text-white">
+          <p class="text-thin mt-2 text-gray-800 mb-4 dark:text-white">
             Café One is a hybrid banking model created by Sterling Bank which
             offers a co-working space, tailored events and also functions as a
             Café.

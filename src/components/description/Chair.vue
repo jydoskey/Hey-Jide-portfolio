@@ -31,7 +31,7 @@
             lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
           "
         >
-          <p class="text-thin mt-2 px-1 text-gray-800 mb-4 dark:text-white">
+          <p class="text-thin mt-2 text-gray-800 mb-4 dark:text-white">
             Any of various devices that hold up or support <br /><span
               class="font-bold"
             >
@@ -62,7 +62,7 @@
 
     <div class="container mt-5 mx-auto">
       <div class="container mx-auto">
-        <div class="grid-cols-1 py-10 px-10 lg:space-y-0 lg:grid lg:mx-auto">
+        <div class="grid-cols-1 py-10 px-6 lg:space-y-0 lg:grid lg:mx-auto">
           <h1
             class="
               text-3xl
