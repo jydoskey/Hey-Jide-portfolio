@@ -19,7 +19,7 @@
             Other Works
           </h1>
           <h2 class="text-base font-thin pb-4 block text-slate-400">
-            Chalk on black Painting
+            Chalk on black paper
           </h2>
         </div>
       </div>
@@ -27,19 +27,6 @@
       <div class="container mt-5 mx-auto">
         <div class="container mx-auto">
           <div class="grid-cols-1 py-10 px-6 lg:space-y-0 lg:grid lg:mx-auto">
-            <h1
-              class="
-                text-3xl
-                font-bold
-                capitalize
-                pb-1
-                block
-                text-black
-                dark:text-white
-              "
-            >
-              Eyes
-            </h1>
             <img
               class="
                 bg-gray-200
@@ -51,8 +38,8 @@
                 mt-5
                 lg:my-0
               "
-              alt="Fusion Roadmap"
-              title="Fusion Roadmap"
+              alt="Eyes"
+              title="Eyes"
               src="@/assets/images/projet-Images/eyes.png"
             />
           </div>
@@ -66,29 +53,19 @@
             pt-10
             pb-10
             px-6
-            lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
+            lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-2 lg:mx-auto
           "
         >
           <div>
-            <h1
-              class="
-                text-base
-                font-bold
-                capitalize
-                text-slate-400
-                dark:text-white
-              "
-            >
-              Bird
-            </h1>
             <img
               class="
                 bg-gray-200
                 object-fit
-                w-full
+                w-7/12
                 h-full
                 lg:justify-self-end
-                md:mx-auto
+                justify-center
+                mx-auto
                 mt-5
                 lg:my-0
               "
@@ -99,25 +76,14 @@
           </div>
 
           <div>
-            <h1
-              class="
-                text-base
-                font-bold
-                capitalize
-                text-slate-400
-                dark:text-white
-              "
-            >
-              Dog
-            </h1>
             <img
               class="
                 bg-gray-200
                 object-fit
-                w-full
+                w-7/12
                 h-full
                 lg:justify-self-end
-                md:mx-auto
+                mx-auto
                 mt-5
                 lg:my-0
               "
@@ -126,39 +92,16 @@
               src="@/assets/images/projet-Images/dog.png"
             />
           </div>
-        </div>
-      </div>
 
-      <div class="container mx-auto">
-        <div
-          class="
-            grid-cols-2
-            pt-10
-            pb-10
-            px-6
-            lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
-          "
-        >
           <div>
-            <h1
-              class="
-                text-base
-                font-bold
-                capitalize
-                text-slate-400
-                dark:text-white
-              "
-            >
-              Lion
-            </h1>
             <img
               class="
                 bg-gray-200
                 object-fit
-                w-full
+                w-7/12
                 h-full
                 lg:justify-self-end
-                md:mx-auto
+                mx-auto
                 mt-5
                 lg:my-0
               "
@@ -169,25 +112,14 @@
           </div>
 
           <div>
-            <h1
-              class="
-                text-base
-                font-bold
-                capitalize
-                text-slate-400
-                dark:text-white
-              "
-            >
-              Human
-            </h1>
             <img
               class="
                 bg-gray-200
                 object-fit
-                w-full
+                w-7/12
                 h-full
                 lg:justify-self-end
-                md:mx-auto
+                mx-auto
                 mt-5
                 lg:my-0
               "
