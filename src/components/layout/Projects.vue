@@ -250,7 +250,7 @@
           <div class="header h-full w-full p-8">
             <div class="hero-header">
               <h1 class="text-3xl font-bold uppercase pb-1">
-                Chalk on black paper painting
+                Chalk on black paper
               </h1>
               <h2 class="text-xs font-thin pb-4">Painting</h2>
               <p class="text-sm font-light"></p>
