@@ -10,17 +10,7 @@
         "
       >
         <!-- Bus Shelters -->
-        <router-link
-          class="
-            w-full
-            rounded
-            hover:shadow-2xl
-            cursor-pointer
-            figure
-            overflow-hidden
-          "
-          to="/busshelter"
-        >
+        <router-link class="figure" to="/busshelter">
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="BusShelters1"
@@ -35,11 +25,9 @@
             alt="BusShelters"
             title="BusShelters"
           />
-          <div class="header h-full w-full p-8">
+          <div class="header p-8">
             <div class="hero-header">
-              <h1 class="text-3xl font-bold uppercase pb-1">
-                Concept design for Bus Shelters
-              </h1>
+              <h1>Concept design for Bus Shelters</h1>
               <h2 class="text-xs font-thin pb-4">Solid works, Sketch</h2>
               <p class="text-sm font-light">
                 The design allows people to protect themselves during the
@@ -52,19 +40,7 @@
         </router-link>
 
         <!-- Helmet -->
-        <router-link
-          class="
-            w-full
-            col-span-2
-            row-span-2
-            rounded
-            hover:shadow-2xl
-            cursor-pointer
-            figure
-            overflow-hidden
-          "
-          to="/helmet"
-        >
+        <router-link class="col-span-2 row-span-2 figure" to="/helmet">
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Helmet1"
@@ -79,11 +55,9 @@
             alt="Helmet-image 2"
             title="Helmet"
           />
-          <div class="header h-full w-full p-8">
+          <div class="header p-8">
             <div class="hero-header">
-              <h1 class="text-3xl font-bold uppercase pb-1">
-                Concept design for a Helmet
-              </h1>
+              <h1>Concept design for a Helmet</h1>
               <h2 class="text-xs font-thin pb-4">Coloured Painting, Sketch</h2>
               <p class="text-sm font-light">
                 Designing stylish helmets that will encourage motor cycles to
@@ -94,17 +68,7 @@
         </router-link>
 
         <!-- Fusion -->
-        <router-link
-          class="
-            w-full
-            rounded
-            hover:shadow-2xl
-            cursor-pointer
-            figure
-            overflow-hidden
-          "
-          to="/fusion"
-        >
+        <router-link class="figure" to="/fusion">
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Fusion1"
@@ -119,11 +83,9 @@
             alt="Fusion 2"
             title="Fusion"
           />
-          <div class="header h-full w-full p-8">
+          <div class="header p-8">
             <div class="hero-header">
-              <h1 class="text-3xl font-bold uppercase pb-1">
-                Fusion (Software App)
-              </h1>
+              <h1>Fusion (Software App)</h1>
               <h2 class="text-xs font-thin pb-4">
                 User research, Customer journey mapping, Flow charts, Wire
                 framing
@@ -140,17 +102,7 @@
         </router-link>
 
         <!-- Shelf -->
-        <router-link
-          class="
-            w-full
-            rounded
-            hover:shadow-2xl
-            cursor-pointer
-            figure
-            overflow-hidden
-          "
-          to="/shelf"
-        >
+        <router-link class="figure" to="/shelf">
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Bookshelf1"
@@ -165,11 +117,9 @@
             alt="Bookshelf 2"
             title="Bookshelf"
           />
-          <div class="header h-full w-full p-8">
+          <div class="header p-8">
             <div class="hero-header">
-              <h1 class="text-3xl font-bold uppercase pb-1">
-                concept design for bookshelf
-              </h1>
+              <h1>concept design for bookshelf</h1>
               <h2 class="text-xs font-thin pb-4">
                 Sketch, Painting, Solidworks, Keyshot
               </h2>
@@ -182,17 +132,7 @@
         </router-link>
 
         <!-- Chair -->
-        <router-link
-          class="
-            w-full
-            rounded
-            hover:shadow-2xl
-            cursor-pointer
-            figure
-            overflow-hidden
-          "
-          to="/chair"
-        >
+        <router-link class="figure" to="/chair">
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="chair1"
@@ -207,11 +147,9 @@
             alt="chair 2"
             title="chair"
           />
-          <div class="header h-full w-full p-8">
+          <div class="header p-8">
             <div class="hero-header">
-              <h1 class="text-3xl font-bold uppercase pb-1">
-                concept design for chairs
-              </h1>
+              <h1>concept design for chairs</h1>
               <h2 class="text-xs font-thin pb-4">Sketch, Painting</h2>
               <p class="text-sm font-light">
                 The chair frame is made of walnut wood and the seats are made of
@@ -222,17 +160,7 @@
         </router-link>
 
         <!-- Painting -->
-        <router-link
-          class="
-            w-full
-            rounded
-            hover:shadow-2xl
-            cursor-pointer
-            figure
-            overflow-hidden
-          "
-          to="/painting"
-        >
+        <router-link class="figure" to="/painting">
           <img
             class="image-main h-full w-full bg-gray-300 mb-4"
             :src="Eyes"
@@ -247,11 +175,9 @@
             alt="Eyes"
             title="Eyes"
           />
-          <div class="header h-full w-full p-8">
+          <div class="header p-8">
             <div class="hero-header">
-              <h1 class="text-3xl font-bold uppercase pb-1">
-                Chalk on black paper
-              </h1>
+              <h1>Chalk on black paper</h1>
               <h2 class="text-xs font-thin pb-4">Painting</h2>
               <p class="text-sm font-light"></p>
             </div>
@@ -298,6 +224,7 @@ export default {
 <style scoped>
 .figure {
   position: relative;
+  @apply w-full rounded hover:shadow-2xl cursor-pointer overflow-hidden;
 }
 .figure img.image-hover {
   position: absolute;
@@ -320,13 +247,27 @@ export default {
   left: 0;
   bottom: 0;
   object-fit: cover;
-  text-align: start;
   color: white;
-  background: rgb(0, 0, 0, 0.75);
+  background: rgb(0, 0, 0, 0.8);
   opacity: 0;
+  @apply lg:h-full md:h-[27.8rem] h-[13rem] lg:w-full md:w-[43.7rem] w-[20.35rem];
+}
+
+img.image-hover,
+img.image-main {
+  @apply lg:h-full md:h-[27.8rem] h-[13rem] lg:w-full md:w-[43.7rem] w-[20.35rem];
 }
 
 .header:hover {
   opacity: 1;
+}
+
+.hero-header h2,
+p {
+  @apply hidden lg:block;
+}
+
+.hero-header h1 {
+  @apply text-base lg:text-3xl font-bold uppercase pb-1;
 }
 </style>

@@ -24,7 +24,7 @@
         </div>
         <div
           class="
-            grid-cols-2
+            grid-cols-1
             pt-0
             pb-10
             px-6
@@ -38,7 +38,7 @@
           </p>
 
           <div>
-            <h1 class="text-base capitalize text-slate-400 dark:text-white">
+            <h1 class="text-base font-bold capitalize text-slate-400 dark:text-white">
               problem statement
             </h1>
             <p class="block text-thin pt-2 text-gray-800 mb-4 dark:text-white">
@@ -48,7 +48,7 @@
               One needed a way to make the interaction available virtually.
             </p>
             <h1
-              class="text-base capitalize text-slate-400 mb-1 dark:text-white"
+              class="text-base font-bold capitalize text-slate-400 mb-1 dark:text-white"
             >
               solution
             </h1>
@@ -60,7 +60,7 @@
               interests, register for events and build communities
             </p>
             <h1
-              class="text-base text-slate-400 mb-1 dark:text-white capitalize"
+              class="text-base font-bold text-slate-400 mb-1 dark:text-white capitalize"
             >
               tools
             </h1>
@@ -86,7 +86,7 @@
               dark:text-white
             "
           >
-            Project Roadmap
+            Onboarding Prototype Ideation
           </h1>
           <img
             class="
@@ -103,66 +103,69 @@
             title="Fusion Roadmap"
             src="@/assets/images/projet-Images/Fusion3.png"
           />
+        </div>
+        <div class="grid-cols-2 py-10 mb-4 px-6 lg:space-y-0 lg:grid lg:mx-auto">
+          <div>
+            <img
+              class="
+                bg-gray-200
+                object-fit
+                w-full
+                h-full
+                lg:justify-self-end
+                md:mx-auto
+                my-5
+                lg:my-0
+              "
+              alt="Preferred Community"
+              title="Preferred Community"
+              src="@/assets/images/projet-Images/Fusion22.png"
+            />
+            <h1
+              class="
+                text-sm
+                capitalize
+                pb-1
+                pt-10
+                block
+                text-black
+                dark:text-white
+              "
+            >
+              List of communities based on interest; Joining preferred community
+            </h1>
+          </div>
 
-          <h1
-            class="
-              text-3xl
-              font-bold
-              capitalize
-              pb-1
-              pt-10
-              block
-              text-black
-              dark:text-white
-            "
-          >
-            List of communities based on interest; Joining preferred community
-          </h1>
-          <img
-            class="
-              bg-gray-200
-              object-fit
-              w-full
-              h-full
-              lg:justify-self-end
-              md:mx-auto
-              my-5
-              lg:my-0
-            "
-            alt="Preferred Community"
-            title="Preferred Community"
-            src="@/assets/images/projet-Images/Fusion22.png"
-          />
-
-          <h1
-            class="
-              text-3xl
-              font-bold
-              capitalize
-              pb-1
-              pt-10
-              block
-              text-black
-              dark:text-white
-            "
-          >
-            Blog posts in the community; Able to register and pay for an event
-          </h1>
-          <img
-            class="
-              bg-gray-200
-              object-fit
-              w-full
-              h-full
-              lg:justify-self-end
-              md:mx-auto
-              my-5
-              lg:my-0
-            "
-            alt="Register and Pay"
-            title="Register and Pay"
-            src="@/assets/images/projet-Images/Fusion4.png"
-          />
+          <div>
+            <img
+              class="
+                bg-gray-200
+                object-fit
+                w-full
+                h-full
+                lg:justify-self-end
+                md:mx-auto
+                my-5
+                lg:my-0
+              "
+              alt="Register and Pay"
+              title="Register and Pay"
+              src="@/assets/images/projet-Images/Fusion4.png"
+            />
+            <h1
+              class="
+                text-sm
+                capitalize
+                pb-1
+                pt-10
+                block
+                text-black
+                dark:text-white
+              "
+            >
+              Blog posts in the community; Able to register and pay for an event
+            </h1>
+          </div>
         </div>
       </div>
     </div>

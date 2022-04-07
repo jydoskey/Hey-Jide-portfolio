@@ -24,23 +24,15 @@
         </div>
         <div
           class="
-            grid-cols-2
+            grid-cols-1
             pt-0
             pb-10
             px-6
             lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
           "
         >
-          <p class="text-thin mt-2 text-gray-800 mb-4 dark:text-white">
-            Hanging shelf is a form of shelf with its wall fixings hidden within
-            the shelf board, with no visible supporting brackets. It can be
-            supported on hidden rods or bars that have been attached to studs. A
-            thick floating shelf may be made of a hollow-core shelf glued to a
-            cleat. <br /><span class="font-bold"> - Wikipedia</span>
-          </p>
-
           <div>
-            <h1 class="text-base capitalize text-slate-400 dark:text-white">
+            <h1 class="text-base font-bold capitalize text-slate-400 dark:text-white">
               preferred material
             </h1>
             <p class="block text-thin pt-2 text-gray-800 mb-4 dark:text-white">
@@ -48,7 +40,7 @@
               different variations; ash wood, mahogany wood, maple wood.
             </p>
             <h1
-              class="text-base text-slate-400 mb-1 dark:text-white capitalize"
+              class="text-base font-bold text-slate-400 mb-1 dark:text-white capitalize"
             >
               tools
             </h1>

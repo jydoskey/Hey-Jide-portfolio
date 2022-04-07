@@ -24,7 +24,7 @@
         </div>
         <div
           class="
-            grid-cols-2
+            grid-cols-1
             pt-0
             pb-10
             px-6
@@ -39,7 +39,7 @@
           </p>
 
           <div>
-            <h1 class="text-base capitalize text-slate-400 dark:text-white">
+            <h1 class="text-base font-bold capitalize text-slate-400 dark:text-white">
               problem statement
             </h1>
             <p class="block text-thin pt-2 text-gray-800 mb-4 dark:text-white">
@@ -48,7 +48,7 @@
               adequate protection from both sun and rain for commuters.
             </p>
             <h1
-              class="text-base capitalize text-slate-400 mb-1 dark:text-white"
+              class="text-base font-bold capitalize text-slate-400 mb-1 dark:text-white"
             >
               solution
             </h1>
@@ -56,7 +56,7 @@
               Designing bus shelters for commuters in Lagos, Nigeria
             </p>
             <h1
-              class="text-base text-slate-400 mb-1 dark:text-white capitalize"
+              class="text-base font-bold text-slate-400 mb-1 dark:text-white capitalize"
             >
               tools
             </h1>
