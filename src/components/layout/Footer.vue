@@ -17,7 +17,7 @@
           >About</router-link
         >
       </li>
-      <li
+      <!-- <li
         class="
           text-sm
           font-bold
@@ -40,7 +40,7 @@
         "
       >
         Behance
-      </li>
+      </li> -->
     </ul>
     <p
       class="

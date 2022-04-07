@@ -32,6 +32,7 @@
                 text-gray-800
                 hover:text-gray-400
                 focus:outline-none focus:text-gray-400
+                dark:text-white
               "
             >
               <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
@@ -73,7 +74,7 @@
               >About</router-link
             >
           </li>
-          <li
+          <!-- <li
             class="
               text-sm
               font-bold
@@ -96,7 +97,7 @@
             "
           >
             Behance
-          </li>
+          </li> -->
         </ul>
       </nav>
     </div>
