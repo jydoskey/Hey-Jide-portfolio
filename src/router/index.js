@@ -43,7 +43,10 @@ const router = createRouter({
       name: 'Painting',
       component: () => import('@/components/description/Painting.vue')
     }
-  ]
+  ],
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+}
 })
 
 export default router
