@@ -1,7 +1,5 @@
 <template>
   <div>
-    <Header></Header>
-
     <div class="container mt-10 mx-auto">
       <div class="container mx-auto">
         <div class="px-6">
@@ -204,14 +202,10 @@
         </div>
       </div>
     </div>
-
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Header from "@/components/layout/Header.vue";
-import Footer from "@/components/layout/Footer.vue";
 export default {
   name: "Helmet",
 
@@ -221,8 +215,6 @@ export default {
 
   mounted() {},
   components: {
-    Header,
-    Footer,
   },
 };
 </script>

@@ -1,6 +1,5 @@
 <template>
   <section>
-    <Header></Header>
     <div
       class="container px-6 py-8 mx-auto md:items-center block justify-center"
     >
@@ -25,23 +24,18 @@
       </p>
     </div>
     <Projects></Projects>
-    <Footer></Footer>
   </section>
 </template>
 
 <script>
-import Header from "@/components/layout/Header.vue";
 import Projects from "@/components/layout/Projects.vue";
-import Footer from "@/components/layout/Footer.vue";
 export default {
   name: "Homepage",
   data() {
     return {};
   },
   components: {
-    Header,
     Projects,
-    Footer,
   },
   mounted() {},
 
