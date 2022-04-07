@@ -24,21 +24,13 @@
         </div>
         <div
           class="
-            grid-cols-2
+            grid-cols-1
             pt-0
             pb-10
             px-6
             lg:space-y-0 lg:grid lg:gap-2 lg:grid-rows-1 lg:mx-auto
           "
         >
-          <p class="text-thin mt-2 text-gray-800 mb-4 dark:text-white">
-            Any of various devices that hold up or support <br /><span
-              class="font-bold"
-            >
-              - Merriam-Webster</span
-            >
-          </p>
-
           <div>
             <h1 class="text-base capitalize text-slate-400 dark:text-white">
               selected design

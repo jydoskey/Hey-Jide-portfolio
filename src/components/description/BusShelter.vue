@@ -24,7 +24,7 @@
         </div>
         <div
           class="
-            grid-cols-2
+            grid-cols-1
             pt-0
             pb-10
             px-6
