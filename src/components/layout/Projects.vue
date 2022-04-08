@@ -183,6 +183,31 @@
             </div>
           </div>
         </router-link>
+
+        <!-- Electric -->
+        <router-link class="figure" to="">
+          <img
+            class="image-main h-full w-full bg-gray-300 mb-4"
+            :src="Electric1"
+            :srcset="Electric1"
+            alt="Electric Project"
+            title="Electric Project"
+          />
+          <img
+            class="image-hover h-full w-full bg-gray-300 mb-4"
+            :src="Electric1"
+            :srcset="Electric2"
+            alt="Electric Project"
+            title="Electric Project"
+          />
+          <div class="header p-8">
+            <div class="hero-header">
+              <h1>Energy Management System</h1>
+              <h2 class="text-xs font-thin pb-4">Proteus, Jumper Wires, Bulb, Breadboard</h2>
+              <p class="text-sm font-light"></p>
+            </div>
+          </div>
+        </router-link>
       </div>
     </div>
   </div>
@@ -200,6 +225,8 @@ import Fusion2 from "@/assets/images/projet-Images/Fusion22.png";
 import BusShelters1 from "@/assets/images/projet-Images/BusShelter1.jpeg";
 import BusShelters2 from "@/assets/images/projet-Images/BusShelter2.png";
 import Eyes from "@/assets/images/projet-Images/eyes.png";
+import Electric1 from "@/assets/images/projet-Images/Electric1.jpg";
+import Electric2 from "@/assets/images/projet-Images/Electric2.png";
 export default {
   name: "Projects",
 
@@ -216,6 +243,8 @@ export default {
       Fusion1: Fusion1,
       Fusion2: Fusion2,
       Eyes: Eyes,
+      Electric1: Electric1,
+      Electric2: Electric2,
     };
   },
 };
