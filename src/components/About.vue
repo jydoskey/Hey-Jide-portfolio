@@ -56,7 +56,7 @@
           "
         >
           <div>
-            <h1 class="text-base text-slate-400 mb-2 dark:text-white">
+            <h1 class="text-base font-bold text-slate-400 mb-2 dark:text-white">
               EDUCATION
             </h1>
             <p
@@ -67,13 +67,13 @@
                 >• BSC, Electrical and Electronic Engineering</span
               >
             </p>
-            <h1 class="text-base text-slate-400 mb-2 dark:text-white">
+            <h1 class="text-base font-bold text-slate-400 mb-2 dark:text-white">
               SOLD?, LET'S CONNECT
             </h1>
             <p class="text-base text-gray-800 mb-4 dark:text-white">
               Say hello at olajumokeademodi@gmail.com
             </p>
-            <h1 class="text-base text-slate-400 mb-2 dark:text-white">
+            <h1 class="text-base font-bold text-slate-400 mb-2 dark:text-white">
               LANGUAGE
             </h1>
             <p class="text-base text-gray-800 mb-4 dark:text-white">
@@ -82,7 +82,7 @@
           </div>
 
           <div>
-            <h1 class="text-base text-slate-400 mb-2 dark:text-white">
+            <h1 class="text-base font-bold text-slate-400 mb-2 dark:text-white">
               SKILLS
             </h1>
             <p
@@ -94,13 +94,15 @@
                 Galileo</span
               >
             </p>
-            <h1 class="text-base text-slate-400 mb-2 dark:text-white">
+            <h1 class="text-base font-bold text-slate-400 mb-2 dark:text-white">
               SPORTS
             </h1>
             <p class="text-base text-gray-800 mb-4 dark:text-white">
               Lawn Tennis, Table Tennis
             </p>
-            <h1 class="text-base text-slate-400 mb-2 dark:text-white">ART</h1>
+            <h1 class="text-base font-bold text-slate-400 mb-2 dark:text-white">
+              ART
+            </h1>
             <p class="text-base text-gray-800 mb-4 dark:text-white">
               Painting, Drawing
             </p>
@@ -120,8 +122,7 @@ export default {
   },
 
   mounted() {},
-  components: {
-  },
+  components: {},
 };
 </script>
 

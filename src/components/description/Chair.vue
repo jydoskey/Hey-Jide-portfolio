@@ -30,7 +30,15 @@
           "
         >
           <div>
-            <h1 class="text-base font-bold capitalize text-slate-400 dark:text-white">
+            <h1
+              class="
+                text-base
+                font-bold
+                capitalize
+                text-slate-400
+                dark:text-white
+              "
+            >
               selected design
             </h1>
             <p class="block text-thin pt-2 text-gray-800 mb-4 dark:text-white">
@@ -38,7 +46,14 @@
               cotton with a black wool-like finishing
             </p>
             <h1
-              class="text-base font-bold text-slate-400 mb-1 dark:text-white capitalize"
+              class="
+                text-base
+                font-bold
+                text-slate-400
+                mb-1
+                dark:text-white
+                capitalize
+              "
             >
               tools
             </h1>
@@ -126,8 +141,7 @@ export default {
   },
 
   mounted() {},
-  components: {
-  },
+  components: {},
 };
 </script>
 
